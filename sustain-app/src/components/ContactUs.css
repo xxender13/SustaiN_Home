@@ -1,0 +1,50 @@
+/* ContactUs.css */
+
+.contact-container {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  color: #004d40;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.contact-item {
+  flex: 1;
+  max-width: 45%;
+  color: #333;
+  line-height: 1.6;
+}
+
+.contact-item p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-item {
+    max-width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,78 @@
+/* NavBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1rem 1em; /* Increased right padding */
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  height: 40px; /* Adjust the size of the logo as needed */
+  margin-right: 1rem; /* Space between logo and text */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px; /* To create a tile effect with rounded corners */
+}
+
+.navbar-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Highlight box color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tile-like shadow effect */
+  color: white; /* Ensure text color remains white */
+}
+
+.launch-button {
+  background-color: blue;
+  color: #004d40;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.launch-button:hover {
+  background-color: white;
+  color: #00332e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tile-like shadow effect */
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .launch-button {
+    margin-top: 0.5rem;
+  }
+}

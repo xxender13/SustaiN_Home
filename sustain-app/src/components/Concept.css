@@ -1,0 +1,44 @@
+/* Concept.css */
+
+.concept-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.concept-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.concept-content {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 2rem;
+}
+
+.concept-content h1 {
+  color: #004d40;
+  margin-bottom: 1rem;
+}
+
+.concept-content p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.concept-image {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.concept-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}

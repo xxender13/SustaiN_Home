@@ -1,0 +1,53 @@
+/* Demo.css */
+
+.demo-container {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.demo-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.demo-heading {
+  color: #004d40;
+  margin-bottom: 1rem;
+}
+
+.demo-divider {
+  height: 2px;
+  background-color: #004d40;
+  width: 50px;
+  margin: 0 auto 1rem;
+}
+
+.demo-description {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.demo-description a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.demo-description a:hover {
+  color: #e6b800;
+}
+
+.demo-gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.demo-gif img {
+  max-width: 100%;
+  border-radius: 8px;
+}
