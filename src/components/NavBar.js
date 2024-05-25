@@ -15,7 +15,7 @@ const NavBar = () => {
         <a href="#concept">Concept</a>
         <a href="#demo">Demo</a>
         <a href="#contact">Contact Us</a>
-        <a href="#launch" className="launch-button">Launch App</a>
+        <a href="#launch" className="launch-button" onClick={() => window.open('https://sustain-app-a271500b1a7d.herokuapp.com/', '_blank')}>Launch App</a>
       </div>
     </nav>
   );
