@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SustaiN_Home/static/css/main.fb86ec4b.css",
+    "main.js": "/SustaiN_Home/static/js/main.701a8f03.js",
+    "static/js/453.9ed16f3a.chunk.js": "/SustaiN_Home/static/js/453.9ed16f3a.chunk.js",
+    "static/media/concept.png": "/SustaiN_Home/static/media/concept.4824c30202221062db12.png",
+    "static/media/demo.gif": "/SustaiN_Home/static/media/demo.29b2249814e8507ecf62.gif",
+    "static/media/logo.jpg": "/SustaiN_Home/static/media/logo.56e6464e2aa89fc78b53.jpg",
+    "index.html": "/SustaiN_Home/index.html",
+    "main.fb86ec4b.css.map": "/SustaiN_Home/static/css/main.fb86ec4b.css.map",
+    "main.701a8f03.js.map": "/SustaiN_Home/static/js/main.701a8f03.js.map",
+    "453.9ed16f3a.chunk.js.map": "/SustaiN_Home/static/js/453.9ed16f3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb86ec4b.css",
+    "static/js/main.701a8f03.js"
+  ]
+}
