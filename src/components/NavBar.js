@@ -1,7 +1,7 @@
 // src/components/NavBar.js
 import React from 'react';
 import './NavBar.css';
-import logo from 'C:/Users/harsh/OneDrive/Desktop/SustaiN_Home/sustain-app/src/images/logo.jpg'; 
+import logo from 'C:/Users/harsh/OneDrive/Desktop/SustaiN_Home/src/images/logo.jpg'; 
 
 const NavBar = () => {
   return (

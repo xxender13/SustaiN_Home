@@ -1,6 +1,6 @@
 // src/components/Concept.js
 import React from 'react';
-import conceptImage from 'C:/Users/harsh/OneDrive/Desktop/SustaiN_Home/sustain-app/src/images/concept.png'; // Make sure to replace this with the actual path to your image
+import conceptImage from 'C:/Users/harsh/OneDrive/Desktop/SustaiN_Home/src/images/concept.png'; // Make sure to replace this with the actual path to your image
 import './Concept.css';
 
 const Concept = () => {

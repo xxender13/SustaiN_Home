@@ -1,7 +1,7 @@
 // src/components/Demo.js
 import React from 'react';
 import './Demo.css'; 
-import demoGif from 'C:/Users/harsh/OneDrive/Desktop/SustaiN_Home/sustain-app/src/images/demo.gif'; // Make sure to replace this with the actual path to your GIF
+import demoGif from 'C:/Users/harsh/OneDrive/Desktop/SustaiN_Home/src/images/demo.gif'; // Make sure to replace this with the actual path to your GIF
 
 const Demo = () => {
   return (
