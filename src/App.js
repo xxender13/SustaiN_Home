@@ -6,6 +6,9 @@ import Demo from './components/Demo';
 import ContactUs from './components/ContactUs';
 import './App.css';
 
+// index.js or App.js
+import './components/global.css';
+
 const App = () => {
   return (
     <div className="App">

@@ -1,0 +1,26 @@
+
+/* src/components/HeroImage.css */
+.hero-image {
+  background-image: url('C:/Users/harsh/OneDrive/Desktop/SustaiN_Home/src/images/Home.png'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 90vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  position: relative;
+  overflow: hidden; /* Prevent overflow */
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Optional: Adds a slight background to the text for better readability */
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+

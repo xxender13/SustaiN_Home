@@ -15,10 +15,9 @@ const ContactUs = () => {
           <p>Email: sourav.bhadra@slu.edu</p>
         </div>
         <div className="contact-item">
-          <p>Vasit Sagan, PhD (PI)</p>
-          <p>Associate Professor</p>
-          <p>Earth and Atmospheric Sciences</p>
-          <p>Acting Director, Taylor Geospatial Institute</p>
+          <p>Vasit Sagan, PhD (Professor)</p>
+          <p>Director, Remote Sensing Lab</p>
+          <p>Associate Vice President for Geospatial Science</p>
           <p>Saint Louis University, Saint Louis, MO</p>
           <p>Email: vasit.sagan@slu.edu</p>
         </div>
