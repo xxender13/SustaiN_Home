@@ -15,7 +15,7 @@ const NavBar = () => {
         <a href="#concept">Concept</a>
         <a href="#demo">Demo</a>
         <a href="#contact">Contact Us</a>
-        <a href="https://sustain-app-a271500b1a7d.herokuapp.com/" className="launch-button">Launch App</a>
+        <a href="https://sustain-53a9f34d1b19.herokuapp.com/" className="launch-button">Launch App</a>
       </div>
     </nav>
   );
